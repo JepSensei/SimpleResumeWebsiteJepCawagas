@@ -1,0 +1,79 @@
+.ProfilePicture {
+    width: 150px;
+    height: 200px;
+  }
+
+.ObjectiveSection p, .CommunicationSection p, .LeadershipSection p {
+    padding-left: 17%;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0 40% 0 0;
+}
+
+.rightSide-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40%;
+    background-image: url('/pexels-joaquin-carfagna-15550234.jpg');
+    background-repeat: no-repeat;
+  }
+
+.ExperienceSection p, .EducationSection p {
+    margin: 0px 200px;
+}
+
+hr {
+    border-top: 3px double black;
+}
+
+div {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+iframe {
+    margin: 30px 0 40px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        margin-right: 0;
+        color: rgb(19, 1, 1);
+      }
+      .rightSide-image {
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-image: url('/pp.jpg');
+        max-height: fit-content;
+      }
+    }
+
+    /* html {
+        min-height: 100%;
+        cursor: url("/pp.jpg"), auto;
+    } */
